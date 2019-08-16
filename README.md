@@ -9,4 +9,4 @@ python app.py
 ```
 * 运行页面
 
-![add image](https://github.com/felixzfq/quary-gc/raw/master/images/homepage.png)
+![add image](https://github.com/felixzfq/StudyDemo/blob/quary-gc/images/homepage.png)
