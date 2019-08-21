@@ -10,4 +10,5 @@
 :一个简单的新闻管理系统（Python）
 * [calc_demo](//github.com/felixzfq/StudyDemo/tree/calc_demo)
 :网页计算器（html&css&javascript）
-
+* [dafen_market](//github.com/felixzfq/StudyDemo/tree/dafen_market)
+:油画展示页面（html&css&javascript）
