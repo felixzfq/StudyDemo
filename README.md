@@ -1,6 +1,6 @@
 # Amazon (Project's name)
 
-** 目录结构 **
+**目录结构**
 
 |— Drivers
 
