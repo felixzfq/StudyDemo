@@ -1,12 +1,10 @@
-# -*- coding: utf-8 -*-
-
 from selenium.webdriver.common.by import By
 
 
 class Locators:
     # Home page Locators
     SEARCH_TEXTBOX = (By.ID,"twotabsearchtextbox")
-    SEARCH_SUBMIT_BUTTON = (By.ID, "nav-search-submit-text")
+    SEARCH_SUBMIT_BUTTON = (By.XPATH, "//div[contains(@class,'nav-search-submit')]/input")
 
     # Search Results Page Locators
     SEARCH_RESULT_LINK = (By.XPATH, "//div[@class='s-result-list s-search-results sg-row']"
@@ -22,8 +20,7 @@ class Locators:
     CART_LINK = (By.ID, "nav-cart")
 
     # Cart Page Locators
-    DELETE_ITEM_LINK = (By.XPATH, "//div[@class='s-result-list s-search-results sg-row']"
-                                  "//div[@data-index='0']//img")
+    DELETE_ITEM_LINK = (By.XPATH,"//span[@class='a-size-small sc-action-delete']//input")
     PROCEED_TO_CHECKOUT_BUTTON = (By.NAME, "proceedToCheckout")
 
     # Sign in Page Locators
