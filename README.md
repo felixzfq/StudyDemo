@@ -1,7 +1,7 @@
 # StudyDemo
 
 # 描述
-这是学习测试&开发技术中一些练手小项目
+学习测试&开发技术的练习项目
 
 ### 分类
 * [vega_news](//github.com/felixzfq/StudyDemo/tree/vega_news)
