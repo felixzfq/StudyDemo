@@ -12,7 +12,7 @@
 
 |— Tests
  
-Drivers: 存放不同的浏览器（例如Chrome.exe...）
+Drivers: 存放不同的浏览器驱动（例如chromedriver.exe...）
 
 Reports: 存放测试报告
 

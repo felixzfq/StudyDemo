@@ -1,13 +1,14 @@
 import sys,os,inspect
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
-sys.path.append(parentdir+'\\Resources')
-sys.path.append(parentdir+'\\Resources\\PO')
+sys.path.append(parentdir)
+# sys.path.append(parentdir+'\\Resources')
+# sys.path.append(parentdir+'\\Resources\\PO')
 
 from selenium import webdriver
-from Pages import HomePage,SearchResultPage,ProductDetailsPage,SubCartPage,CartPage,SignInPage
-from Locators import Locators
-from TestData import TestData
+from Resources.PO.Pages import HomePage,SearchResultPage,ProductDetailsPage,SubCartPage,CartPage,SignInPage
+from Resources.Locators import Locators
+from Resources.TestData import TestData
 import unittest
 import HtmlTestRunner
 
