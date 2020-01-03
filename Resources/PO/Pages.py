@@ -1,13 +1,14 @@
 import sys,os,inspect
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
-sys.path.append(parentdir)
+gradparentdir = os.path.dirname(parentdir)
+sys.path.append(gradparentdir)
 
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
-from TestData import TestData
-from Locators import Locators
+from Resources.TestData import TestData
+from Resources.Locators import Locators
 from time import sleep
 
 
