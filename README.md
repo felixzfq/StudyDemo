@@ -8,5 +8,3 @@
 ：垃圾分类查询小项目(Python)
 * [AMZN_Selenium_Test](//github.com/felixzfq/StudyDemo/tree/AMZN_Selenium_Test)
 : POM重构购物测试用例(python & selenium)
-* [MSLife_Selenium_Test](//github.com/felixzfq/StudyDemo/tree/MSLife_Selenium_Test)
-: 民生官网UI测试(python & selenium)
