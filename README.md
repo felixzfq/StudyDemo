@@ -1,11 +1,18 @@
-# StudyDemo
+# DeltaTrader
 
-# 描述
-学习测试&开发技术的练习项目
 
-### 分类
-* [AutomaticDiscoverBrowserDriver](//github.com/felixzfq/StudyDemo/tree/AutomaticDiscoverBrowserDriver):自动侦测浏览器版本并下载对应的浏览器驱动(Python)
-* [AMZN_Selenium_Test](//github.com/felixzfq/StudyDemo/tree/AMZN_Selenium_Test)
-: POM重构购物测试用例(python & selenium)
-* [quary-gc](//github.com/felixzfq/StudyDemo/tree/quary-gc)
-：垃圾分类查询小项目(Python)
+## 功能模块
+
+## 行情记录
+    获取所有a股股票列表
+    获取单个股票行情数据
+    导出股票行情数据
+    转换股票行情数据
+    获取单个股票财务指标
+    获取单个股票估值指标
+
+## 策略开发
+
+## 自动交易
+
+
